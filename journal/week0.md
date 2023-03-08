@@ -1,6 +1,9 @@
-# Week 0 — Billing and Architecture
+
 # Week 0 — Billing and Architecture
 
+## Lucid Charts link to the Architecture Diagram 
+
+https://lucid.app/lucidchart/9e4b1e9a-8801-4d0a-802c-0e82be13b998/edit?invitationId=inv_b6b0de6e-4d9e-4aa9-a94c-6e2500a28597&page=0_0#
 
 ## Getting the AWS CLI Working
 
