@@ -57,6 +57,7 @@ CMD [ "python3", "-m" , "flask", "run", "--host=0.0.0.0", "--port=4567"]
 
 ```sh
 docker build -t  backend-flask ./backend-flask
+docker build -t  backend-flask:latest ./backend-flask
 ```
 
 ### Run Container
@@ -78,7 +79,7 @@ Run in background
 docker container run --rm -p 4567:4567 -d backend-flask
 ```
 
-Return the container id into an Env Vat
+Return the container id into an Env Var
 ```sh
 CONTAINER_ID=$(docker run --rm -p 4567:4567 -d backend-flask)
 ```
